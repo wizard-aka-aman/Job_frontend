@@ -37,7 +37,7 @@ const Login = () => {
     }
   };
 
-  if(isAuthorized){
+  if(!isAuthorized){
     return <Navigate to={'/'}/>
   }
 
